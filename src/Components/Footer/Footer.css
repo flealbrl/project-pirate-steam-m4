@@ -1,0 +1,50 @@
+div.container_footer{
+    background: linear-gradient(180deg, rgba(4,2,36,1) 0%, rgba(0,0,60,1) 100%); 
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+h2.footer_dados_h2{
+    font-size: 1.4rem;
+    padding: 2rem;
+    color: rgb(175, 175, 175);
+}
+
+h3.footer_dados_h3{
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
+    color: rgb(175, 175, 175);
+}
+
+div.container_footer_sociais{
+    margin: 2rem;
+    text-align: center;
+}
+
+a.footer_sociais{
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: .2rem;
+}
+
+svg, path {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    margin-right: .3rem;
+    margin-left: 1.3rem;
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+

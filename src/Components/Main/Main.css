@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;1,200;1,300&family=Cabin:ital,wght@0,400;0,500;1,400;1,500&family=Montserrat:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    background-image: url('../Img/bk-games.jpg');
+}
+
+div.root_container_menu{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.root_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container_card{
+    margin: 1rem;
+    width: 300px;
+    color: white;
+    background: linear-gradient(180deg, rgba(4,2,36,1) 75%, rgba(0,0,60,1) 100%);
+    border-radius: .3rem .3rem .3rem .3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+img.container_card_img{
+    width: 300px;
+    height: 400px;
+    border-radius: .2rem .2rem 0 0;
+}
+
+p.container_card_titulo{
+    font-size: 2rem;
+    padding-top: .3rem;
+    text-align: center;
+}
+
+p.container_card_descircao{
+    font-size: 1.2rem;
+    padding: .5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+div.container_card_account{
+    width: 450px;
+    padding: 1rem;
+    margin: 2rem; 
+    color: white;
+    background: #3b3b3bc5;
+    text-transform: uppercase;
+    border-radius: .5rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2.container_card_input_h2{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+input.container_card_input{
+    border-radius: .5rem;
+    border: 1px solid white;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding: 3px;
+    border: 1px solid #000000cc;
+}
+a.link_np_upr{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+a.link_new_password{
+    text-decoration: none;
+    color: white;
+    text-transform: lowercase;
+}
+
+a.checkbox-lwr{
+    text-transform: lowercase;
+}
+
+input.container_card_input_checkbox{
+    margin: .3rem;
+    size: 1rem;
+}
+
+input[type=checkbox] {
+    transform: scale(1.4);
+}
+
+label.card_input_checkbox{
+    text-transform: capitalize;
+}
+
+label.container_card_input_label{
+    display: flex;
+    font-size: 1.1rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+
+form.container_card_form{
+padding: .5rem;
+}
+
+div.card_checkbox_account{
+    padding-top: .5rem;
+}
+
+h3.jogoDestaque{
+    font-size: 1.4rem;
+    padding: .4rem;
+    text-align: center;
+}
+
+a.icon-star{
+    color: goldenrod;
+}
+
+button.input_btn_login{
+    background: linear-gradient( to right, #47bfff 5%, #1a44c2 60%);
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 20%);
+    background-position: 25%;
+    background-size: 330% 100%;
+    border: none;
+    text-align: center;
+    border-radius: 0.2rem;
+    color: white;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    padding: 11px 33px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+button.input_btn_login:hover {
+    transform: scale(1.07);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+h2.container_card_button_register{
+    margin-top: 4rem;
+    letter-spacing: 2px;
+}
+
+button.input_btn_registrar{
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 20%);
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 0.3rem;
+    background-color: rgba(255, 255, 255, 0.335);
+    color: rgb(255, 255, 255);
+    margin: 1rem;
+    padding: 10px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 3rem;
+    transition-duration: 0.4s;
+}
+
+button.input_btn_registrar:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button.card_verMais{
+    border: none;
+    background: greenyellow;
+    padding: .2rem ;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 0 0 .3rem .3rem;
+}
+
+button.card_verMais span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button.card_verMais span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button.card_verMais:hover span {
+    padding-right: 25px;
+}
+
+button.card_verMais:hover span:after {
+    opacity: 1;
+    right: 0;
+}

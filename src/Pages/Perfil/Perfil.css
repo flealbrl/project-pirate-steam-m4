@@ -1,0 +1,16 @@
+.perfil {
+  padding: 15.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfil h2 {
+  padding: 1rem;
+}
+
+.perfil-img img {
+  width: 8rem;
+  border-radius: 5rem;
+}
