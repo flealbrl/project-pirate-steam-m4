@@ -32,37 +32,52 @@ export default function Main() {
         navigate('perfil')
     }
 
+    const goToAcao = () => {
+        navigate('destaque/acao')
+    }
+
+    const goToFPS = () => {
+        navigate('destaque/fps')
+    }
+
+    const goToRPG = () => {
+        navigate('destaque/RPG')
+    }
+
+    const goToMA = () => {
+        navigate('destaque/MA')
+    }
 
     return(
             <div className='root_container_menu'>
                 <div className='root_container'>
                     <div className='container_card'>  
                     <h3 className='jogoDestaque'>Jogo Destaque FPS <a className='icon-star'>⭐</a></h3>
-                        <img className='container_card_img'src='https://sogamestorrent.weebly.com/uploads/1/0/8/9/10894841/1661054_orig.jpg?312'/>
-                        <p className='container_card_titulo'>Cryses WARHEAD </p>
-                        <p className='container_card_descircao'>Uma breve descrição sobre o jogo no qual vc ira comprar / jogar.</p>
-                        <button class='button' className='card_verMais'><span>Ver Mais </span></button>
+                        <img className='container_card_img'src='https://image.api.playstation.com/vulcan/ap/rnd/202110/0723/3v261owCmKqIVjnFfT3mFjyZ.png'/>
+                        <p className='container_card_titulo'>COD: Warzone</p>
+                        <p className='container_card_descircao'>Warzone permite um combate em um modo multijogador on-line.</p>
+                        <button onClick={goToFPS} class='button' className='card_verMais'><span>Ver Mais </span></button>
                     </div>
                     <div className='container_card'>
                     <h3 className='jogoDestaque'>Jogo Destaque Ação <a className='icon-star'>⭐</a></h3>
-                        <img className='container_card_img'src='https://image.api.playstation.com/vulcan/img/cfn/11307uYG0CXzRuA9aryByTHYrQLFz-HVQ3VVl7aAysxK15HMpqjkAIcC_R5vdfZt52hAXQNHoYhSuoSq_46_MT_tDBcLu49I.png'/>
-                        <p className='container_card_titulo'>Minecraft</p>
-                        <p className='container_card_descircao'>Uma breve descrição sobre o jogo no qual vc ira comprar / jogar.</p>
-                        <button class='button' className='card_verMais'><span>Ver Mais </span></button>
+                        <img className='container_card_img'src='https://image.api.playstation.com/cdn/UP0006/CUSA00110_00/D8Gbgtnu0ZvmVs8VloyLb0Sm9tW0wpKh.png'/>
+                        <p className='container_card_titulo'>Battlefield 4</p>
+                        <p className='container_card_descircao'>Battlefield 4 é um simulador realistico de guerra em varios cenários, com aviões, barcos carros e muita morte.</p>
+                        <button onClick={goToAcao} class='button' className='card_verMais'><span>Ver Mais </span></button>
                     </div>
                     <div className='container_card'>
                     <h3 className='jogoDestaque'>Jogo Destaque RPG <a className='icon-star'>⭐️</a></h3>
-                        <img className='container_card_img'src='https://image.api.playstation.com/vulcan/ap/rnd/202006/1014/ORrwkbfh9B1OwfQbPGLBsgs7.png'/>
-                        <p className='container_card_titulo'>DayZ</p>
+                        <img className='container_card_img'src='https://s2.glbimg.com/y6nngNdKtYKEZx9QiZIa-bW4cq4=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/E/T/z4H0MFRxKrUlZijtEnAQ/20190522035739-1200-675-league-of-legends.jpg'/>
+                        <p className='container_card_titulo'>League of Legends</p>
                         <p className='container_card_descircao'>Uma breve descrição sobre o jogo no qual vc ira comprar / jogar.</p>
-                        <button class='button' className='card_verMais'><span>Ver Mais </span></button>
+                        <button onClick={goToRPG} class='button' className='card_verMais'><span>Ver Mais </span></button>
                     </div>
                     <div className='container_card'>
                     <h3 className='jogoDestaque'>Jogo Destaque M.A. <a className='icon-star'>⭐</a></h3>
-                        <img className='container_card_img'src='https://3.bp.blogspot.com/-VHYAS-v3hBY/W4TGosrav7I/AAAAAAAAGUw/ySVyoLlkd6A5pBHcyNjDbNwo1idP32BngCLcBGAs/w680/csgo-capa.jpg'/>
-                        <p className='container_card_titulo'>CSGO</p>
-                        <p className='container_card_descircao'>Uma breve descrição sobre o jogo no qual vc ira comprar / jogar.</p>
-                        <button class='button' className='card_verMais'><span>Ver Mais </span></button>
+                        <img className='container_card_img'src='https://cdn.mos.cms.futurecdn.net/wsoqbusZBxdAyoYUs8zr98.jpg'/>
+                        <p className='container_card_titulo'>GTA: The Trilogy</p>
+                        <p className='container_card_descircao'>Grand Teath Auto: The Trilogy é a junção definitiva e remasterizada das 3 grandes franquias são: III , Vici City e SA.</p>
+                        <button onClick={goToMA} class='button' className='card_verMais'><span>Ver Mais </span></button>
                     </div>
                 </div>                   
 

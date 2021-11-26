@@ -31,16 +31,13 @@ export default function Game(props) {
       <div className='game-header'>
         <img src={game.image} alt={game.title} />
       </div>
+      <h2>{game.title}</h2>
 
-      <div className='game-wish'>
-        <h2>{game.title}</h2>
-        <div className='game-like'>
-          <span>{'R$' + game.price}</span>
-        </div>
+      <div className='priceYear'>
+      <h3 className='year'>{game.year}</h3>
+      <h3 className='price'>{'R$' + game.price} 🛒</h3>  
       </div>
-      <h3>{game.year}</h3>
       <p>{game.storyline}</p>
-
-    </div>
+</div>
   )
 }

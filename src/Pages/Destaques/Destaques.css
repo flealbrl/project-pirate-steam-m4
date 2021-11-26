@@ -1,0 +1,43 @@
+.game{
+    background: rgba(255, 255, 255, 0.400);
+    margin: 4rem 15rem;
+    text-align: center;
+    justify-content: center;
+    border-radius: .6rem;
+}
+
+.priceYear{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.destaque-header img {
+    margin: 4rem 0 0 2rem;
+    width: 70rem;
+    border-radius: .6rem;
+}
+
+h3.price, h3.year{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.6rem;
+}
+
+.destaque p {
+    padding: 1rem 6rem 2rem;
+    text-align: justify;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.destaque h3 {
+    padding: 0 6rem;
+    text-align: justify;
+    font-size: 1.2em;
+    color: #000000;
+}
